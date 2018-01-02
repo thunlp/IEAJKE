@@ -13,7 +13,7 @@ For DFB-1, we provide four files
 
 ## How to run
 First, compile src/transE.cpp by:
-`g++ transE.cpp -o transE -pthread -O3 -march=native`
+`g++ transE.cpp -o transE -pthread -O3 -std=c++11 -march=native`
 
 The compilation arguments maybe different from platform to platform. Such compilation command is the same as the one in [Fast-TransX](https://github.com/thunlp/Fast-TransX). If you come across problems, you can refer to the issues of [Fast-TransX](https://github.com/thunlp/Fast-TransX).
 
